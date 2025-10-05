@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task01</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        gap: 10%;
+        overflow: hidden;
+        height: 100vh;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        max-width: 404px;
+        max-height: 638px;
+        row-gap: 10px;
+      }
+      .login {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .box {
+        flex: 1;
+      }
+      .banner {
+        max-height: 100%;
+        width: 100%;
+      }
+      .btn-signup {
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+      }
+
+      p {
+        text-align: center;
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box login">
+        <form action="" class="form">
+          <h1>Get Started Now</h1>
+          <div class="input">
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div class="input">
+            <label for="">Email address</label>
+            <input type="text" placeholder="Enter your email" />
+          </div>
+          <div class="input">
+            <label for="">Password</label>
+            <input type="text" placeholder="name" />
+          </div>
+          <div><input type="checkbox" />I agree to the terms & policy</div>
+          <button class="btn-signup">Signup</button>
+          <hr />
+          <div>
+            <button>Sign in with Google</button>
+            <button>Sign in with Apple</button>
+          </div>
+          <div>
+            <p>Have an accouts? <a href="">Sign in</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="box">
+        <img
+          class="banner"
+          src="./chris-lee-70l1tDAI6rM-unsplash 1.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>

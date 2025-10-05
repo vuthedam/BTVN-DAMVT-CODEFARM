@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        overflow: hidden;
+        height: 100vh;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        max-width: 404px;
+        max-height: 583px;
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+      }
+      .login {
+        background-color: green;
+        color: white;
+      }
+      button {
+        border-radius: 5px;
+      }
+      .banner {
+        max-height: 100%;
+        width: 100%;
+      }
+      .box {
+        flex: 1;
+      }
+      .dangnhap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .create {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box dangnhap">
+        <form action="">
+          <div>
+            <h1>Welcome Back!</h1>
+            <p>Enter your Credentials to access to account</p>
+          </div>
+          <div class="input">
+            <label for="">Email address</label>
+            <input type="text" placeholder="Enter your email" />
+          </div>
+          <div class="input">
+            <div>
+              <label for="">Password</label> <a href="">forgot password</a>
+            </div>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div><input type="checkbox" />Remember for 30 days</div>
+          <button class="login">login</button>
+          <hr />
+          <div>
+            <button>Sign in with Google</button>
+            <button>Sign in with Apple</button>
+          </div>
+          <div class="create">
+            <p>Don't have an account? <a href="">Sign up</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="box">
+        <img class="banner" src="chris-lee-70l1tDAI6rM-unsplash 1.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
