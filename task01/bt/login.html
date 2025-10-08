@@ -15,18 +15,18 @@
         overflow: hidden;
         height: 100vh;
       }
-      form {
+      .form {
         display: flex;
         flex-direction: column;
         row-gap: 30px;
-        max-width: 404px;
+        width: 404px;
         max-height: 583px;
       }
       .input {
         display: flex;
         flex-direction: column;
       }
-      .login {
+      .btn-login {
         background-color: green;
         color: white;
       }
@@ -50,12 +50,29 @@
       .create {
         text-align: center;
       }
+
+      a {
+        text-decoration: none;
+      }
+      .pass {
+        display: flex;
+        justify-content: space-between;
+      }
+      .btn {
+        display: flex;
+        gap: 15px;
+      }
+      .btn button {
+        flex: 1;
+        background-color: white;
+        border-radius: 8px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="box dangnhap">
-        <form action="">
+        <form action="" class="form">
           <div>
             <h1>Welcome Back!</h1>
             <p>Enter your Credentials to access to account</p>
@@ -65,15 +82,15 @@
             <input type="text" placeholder="Enter your email" />
           </div>
           <div class="input">
-            <div>
+            <div class="pass">
               <label for="">Password</label> <a href="">forgot password</a>
             </div>
             <input type="text" placeholder="Name" />
           </div>
           <div><input type="checkbox" />Remember for 30 days</div>
-          <button class="login">login</button>
+          <button class="btn-login">login</button>
           <hr />
-          <div>
+          <div class="btn">
             <button>Sign in with Google</button>
             <button>Sign in with Apple</button>
           </div>
