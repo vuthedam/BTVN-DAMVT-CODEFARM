@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1563px;
+  height: 777px;
+  border-radius: 26px;
+  padding: 62px;
+  gap: 56px;
+  top: 216px;
+  left: 18px;
+  background-color: #eff0f1;
+}
+.nav {
+  width: 443px;
+  height: 108px;
+}
+.title {
+  font-family: Merriweather;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 83px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 7px;
+  gap: 10px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.card-wrap {
+  width: 1439px;
+  height: 489px;
+  gap: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
+}
+.card {
+  width: 437px;
+  height: 489px;
+  border-radius: 32px;
+  padding: 24px;
+  gap: 24px;
+  background-color: #fff;
+}
+
+.menu-img {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-big {
+  width: 389px;
+  height: 268px;
+  border-radius: 24px;
+  top: 24px;
+  left: 24px;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.img-small {
+  width: 119px;
+  height: 97px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+.content {
+  width: 389;
+  height: 36;
+  gap: 16px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
