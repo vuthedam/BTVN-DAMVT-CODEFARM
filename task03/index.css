@@ -23,7 +23,6 @@
   font-style: Bold;
   font-size: 32px;
   line-height: 100%;
-  letter-spacing: 0%;
   padding-bottom: 20px;
 }
 
@@ -36,10 +35,9 @@ button {
   background-color: #fff;
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
+  border: none;
 }
 
 .card-wrap {
@@ -88,4 +86,16 @@ button {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.people {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
 }
