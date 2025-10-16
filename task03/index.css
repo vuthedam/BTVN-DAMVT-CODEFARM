@@ -13,6 +13,11 @@
   left: 18px;
   background-color: #eff0f1;
 }
+.menu-button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 .nav {
   width: 443px;
   height: 108px;
