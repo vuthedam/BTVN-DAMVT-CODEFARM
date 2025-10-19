@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .heart {
+        position: relative;
+        top: 100px;
+      }
+      .box {
+        transform: rotate(-46deg);
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+      }
+      .box-1 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        top: 100%;
+      }
+      .box-2 {
+        transform: rotate(-46deg);
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        left: 50%;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heart">
+      <div class="box">
+        <div class="box-1">
+          <div class="box-2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
