@@ -51,9 +51,7 @@ body {
   height: 60px;
   top: 439px;
   left: 469px;
-  border-width: 1px;
-  border-radius: 15px;
-  background-color: #eff1ff;
+
   display: flex;
   justify-content: center;
 }
@@ -110,7 +108,7 @@ body {
   color: black;
 }
 .auth .signup {
-  background: #0a0a28;
+  background: black;
   color: white;
   font-family: Mulish;
   font-weight: 700;
@@ -125,4 +123,9 @@ body {
 }
 .click-menu:hover .menu {
   display: grid;
+}
+.res:hover {
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: #eff1ff;
 }
