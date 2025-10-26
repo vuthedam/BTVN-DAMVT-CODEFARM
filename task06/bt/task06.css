@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  width: 349px;
+  height: 19px;
+  align-items: center;
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+  li a:hover {
+    color: red;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+  img {
+    width: 154px;
+    height: 35px;
+  }
+  button {
+    width: 139px;
+    height: 43px;
+    border-radius: 1px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: #fff;
+  }
+}
+.banner {
+  img {
+    width: 100%;
+    height: 800px;
+  }
+}
+main {
+  width: 1408px;
+  height: auto;
+
+  .menu {
+    width: 80%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+.container {
+  padding: 12px 0;
+  max-width: 80%;
+  height: auto;
+  margin-left: 200px;
+  p {
+    color: #9c9c9c;
+  }
+}
+h2 {
+  padding: 32px 0;
+}
+.container-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 32px 0;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-width: 100%;
+    height: 65%;
+    padding: 10px 0;
+  }
+  .name {
+    padding: 10px 0;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .description {
+    padding-bottom: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #9c9c9c;
+  }
+  .price {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: red;
+  }
+}
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+footer {
+  width: 1126px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  align-items: center;
+  img {
+    width: 154px;
+    height: 35px;
+  }
+  input {
+    width: 204px;
+    height: 39px;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #9c9c9c;
+    outline: none;
+  }
+  button {
+    width: 99px;
+    height: 39px;
+    background-color: #3a3a3a;
+    color: white;
+  }
+}
